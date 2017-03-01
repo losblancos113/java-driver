@@ -34,7 +34,6 @@ import static org.scassandra.http.client.Result.write_request_timeout;
 /**
  * Integration test with an IdempotenceAwareRetryPolicy.
  */
-@SuppressWarnings("deprecation")
 public class IdempotenceAwareRetryPolicyIntegrationTest extends AbstractRetryPolicyIntegrationTest {
 
     public IdempotenceAwareRetryPolicyIntegrationTest() {
